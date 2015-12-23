@@ -14,65 +14,20 @@
         "metadata": {
           "label": ""
         },
-        "properties": {},
-        "children": [
-          {
-            "activated": true,
-            "metadata": {
-              "label": ""
-            },
-            "properties": {
-              "name": "Say",
-              "inputParams": [
-                {
-                  "key": "name",
-                  "type": "string",
-                  "value": "Fred"
-                }
-              ],
-              "outputParams": []
-            },
-            "children": [],
-            "id": "15aec716-043f-4130-a965-78fa6ea4ead6",
-            "type": "action"
-          },
-          {
-            "activated": true,
-            "metadata": {
-              "label": ""
-            },
-            "properties": {
-              "name": "HelloWorld",
-              "inputParams": [],
-              "outputParams": []
-            },
-            "children": [],
-            "id": "560edcd8-ce33-4a39-a1d6-550a92f5b482",
-            "type": "action"
-          },
-          {
-            "activated": true,
-            "metadata": {
-              "label": ""
-            },
-            "properties": {
-              "name": "SayMyName",
-              "inputParams": [
-                {
-                  "key": "name",
-                  "type": "entityKnowledge",
-                  "value": "name"
-                }
-              ],
-              "outputParams": []
-            },
-            "children": [],
-            "id": "b7a30249-bce3-46e0-a651-207cb0553f15",
-            "type": "action"
-          }
-        ],
-        "id": "a0ef3783-880b-4a30-8b5b-789981743993",
-        "type": "sequence"
+        "properties": {
+          "name": "Say",
+          "inputParams": [
+            {
+              "key": "name",
+              "type": "string",
+              "value": "Fred"
+            }
+          ],
+          "outputParams": []
+        },
+        "children": [],
+        "id": "15aec716-043f-4130-a965-78fa6ea4ead6",
+        "type": "action"
       }
     ],
     "id": "65e79d39-0eab-42b8-a251-36eb6147616d"
