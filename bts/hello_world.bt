@@ -22,7 +22,7 @@
               "label": ""
             },
             "properties": {
-              "name": "says",
+              "name": "say",
               "inputParams": [
                 {
                   "key": "name",
