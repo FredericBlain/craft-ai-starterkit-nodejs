@@ -22,6 +22,26 @@
               "label": ""
             },
             "properties": {
+              "name": "says",
+              "inputParams": [
+                {
+                  "key": "name",
+                  "type": "string",
+                  "value": "Fred"
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "15aec716-043f-4130-a965-78fa6ea4ead6",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
               "name": "HelloWorld",
               "inputParams": [],
               "outputParams": []
